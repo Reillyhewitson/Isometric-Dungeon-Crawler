@@ -1,12 +1,13 @@
 from ACaS import *
-import pygame
+import os
 import pickle
 import random
 import time
 
 sf = "saves/" #save folder!
 asset_folder = "ISG_assets/"
-
+os.system("pip install -r requirements.txt")
+import pygame
 class troop(object):
 
     def __init__(self, points):
