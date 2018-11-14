@@ -323,7 +323,7 @@ HaCimg = pygame.image.load(asset_folder + "HaC.png")
 soundOn = -1
 pygame.font.init()
 itemDescription = False
-myfont = pygame.font.Font("C:\\Windows\\Fonts\\ARDARLING.ttf", 30)
+myfont = pygame.font.Font("ARDARLING.ttf", 30)
 while battle.running:
 
     if scene == "Menu":
